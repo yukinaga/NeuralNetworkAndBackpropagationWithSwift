@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB184B991F4ADFEA00E20CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB184B981F4ADFEA00E20CA1 /* AppDelegate.swift */; };
+		FB184B9B1F4ADFEA00E20CA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB184B9A1F4ADFEA00E20CA1 /* ViewController.swift */; };
+		FB184B9E1F4ADFEA00E20CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB184B9C1F4ADFEA00E20CA1 /* Main.storyboard */; };
+		FB184BA01F4ADFEA00E20CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB184B9F1F4ADFEA00E20CA1 /* Assets.xcassets */; };
+		FB184BA31F4ADFEA00E20CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB184BA11F4ADFEA00E20CA1 /* LaunchScreen.storyboard */; };
+		FB184BAB1F4B07B000E20CA1 /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB184BAA1F4B07B000E20CA1 /* NeuralNetwork.swift */; };
+		FB7A60AB1F70068F00D2F08C /* dragonfly.png in Resources */ = {isa = PBXBuildFile; fileRef = FB7A60AA1F70068F00D2F08C /* dragonfly.png */; };
+		FBC2D0B71F695EAC00270211 /* Worm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC2D0B61F695EAC00270211 /* Worm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB184B951F4ADFEA00E20CA1 /* NeuralNetworkWithAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuralNetworkWithAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB184B981F4ADFEA00E20CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB184B9A1F4ADFEA00E20CA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB184B9D1F4ADFEA00E20CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB184B9F1F4ADFEA00E20CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB184BA21F4ADFEA00E20CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB184BA41F4ADFEA00E20CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB184BAA1F4B07B000E20CA1 /* NeuralNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
+		FB7A60AA1F70068F00D2F08C /* dragonfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonfly.png; sourceTree = "<group>"; };
+		FBC2D0B61F695EAC00270211 /* Worm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Worm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB184B921F4ADFEA00E20CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB184B8C1F4ADFEA00E20CA1 = {
+			isa = PBXGroup;
+			children = (
+				FB7A60AA1F70068F00D2F08C /* dragonfly.png */,
+				FB184B971F4ADFEA00E20CA1 /* NeuralNetwork */,
+				FB184B961F4ADFEA00E20CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB184B961F4ADFEA00E20CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB184B951F4ADFEA00E20CA1 /* NeuralNetworkWithAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB184B971F4ADFEA00E20CA1 /* NeuralNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				FB184B981F4ADFEA00E20CA1 /* AppDelegate.swift */,
+				FB184B9A1F4ADFEA00E20CA1 /* ViewController.swift */,
+				FB184BAA1F4B07B000E20CA1 /* NeuralNetwork.swift */,
+				FBC2D0B61F695EAC00270211 /* Worm.swift */,
+				FB184B9C1F4ADFEA00E20CA1 /* Main.storyboard */,
+				FB184B9F1F4ADFEA00E20CA1 /* Assets.xcassets */,
+				FB184BA11F4ADFEA00E20CA1 /* LaunchScreen.storyboard */,
+				FB184BA41F4ADFEA00E20CA1 /* Info.plist */,
+			);
+			path = NeuralNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB184B941F4ADFEA00E20CA1 /* NeuralNetworkWithAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB184BA71F4ADFEA00E20CA1 /* Build configuration list for PBXNativeTarget "NeuralNetworkWithAnimation" */;
+			buildPhases = (
+				FB184B911F4ADFEA00E20CA1 /* Sources */,
+				FB184B921F4ADFEA00E20CA1 /* Frameworks */,
+				FB184B931F4ADFEA00E20CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuralNetworkWithAnimation;
+			productName = NeuralNetwork;
+			productReference = FB184B951F4ADFEA00E20CA1 /* NeuralNetworkWithAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB184B8D1F4ADFEA00E20CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yukinaga Azuma";
+				TargetAttributes = {
+					FB184B941F4ADFEA00E20CA1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P9M57RDE9E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB184B901F4ADFEA00E20CA1 /* Build configuration list for PBXProject "NeuralNetworkWithAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB184B8C1F4ADFEA00E20CA1;
+			productRefGroup = FB184B961F4ADFEA00E20CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB184B941F4ADFEA00E20CA1 /* NeuralNetworkWithAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB184B931F4ADFEA00E20CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB184BA31F4ADFEA00E20CA1 /* LaunchScreen.storyboard in Resources */,
+				FB184BA01F4ADFEA00E20CA1 /* Assets.xcassets in Resources */,
+				FB7A60AB1F70068F00D2F08C /* dragonfly.png in Resources */,
+				FB184B9E1F4ADFEA00E20CA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB184B911F4ADFEA00E20CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB184B9B1F4ADFEA00E20CA1 /* ViewController.swift in Sources */,
+				FB184B991F4ADFEA00E20CA1 /* AppDelegate.swift in Sources */,
+				FBC2D0B71F695EAC00270211 /* Worm.swift in Sources */,
+				FB184BAB1F4B07B000E20CA1 /* NeuralNetwork.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB184B9C1F4ADFEA00E20CA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB184B9D1F4ADFEA00E20CA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB184BA11F4ADFEA00E20CA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB184BA21F4ADFEA00E20CA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB184BA51F4ADFEA00E20CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB184BA61F4ADFEA00E20CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB184BA81F4ADFEA00E20CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P9M57RDE9E;
+				INFOPLIST_FILE = NeuralNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.NeuralNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB184BA91F4ADFEA00E20CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P9M57RDE9E;
+				INFOPLIST_FILE = NeuralNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.NeuralNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB184B901F4ADFEA00E20CA1 /* Build configuration list for PBXProject "NeuralNetworkWithAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB184BA51F4ADFEA00E20CA1 /* Debug */,
+				FB184BA61F4ADFEA00E20CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB184BA71F4ADFEA00E20CA1 /* Build configuration list for PBXNativeTarget "NeuralNetworkWithAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB184BA81F4ADFEA00E20CA1 /* Debug */,
+				FB184BA91F4ADFEA00E20CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB184B8D1F4ADFEA00E20CA1 /* Project object */;
+}
